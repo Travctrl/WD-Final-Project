@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    overflow-x: hidden;
+    background: linear-gradient(135deg, #750303 0%, #2e0606 50%, #000000 100%);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+.education-hero {
+  padding: 0;
+  background: linear-gradient(135deg, #750303 0%, #2e0606 50%, #000000 100%);
+  text-align: center;
+  color: #fff;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.3);
+  border-radius: 0;
+  margin: 0;
+  max-width: none;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+  color: #ffcdcd;
+}
+
+.school-cards-container {
+  display: flex;
+  gap: 5rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex: 1;
+  align-items: stretch;
+}
+
+.school-card {
+  background: #2e0606;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 1px rgba(0,0,0,0.4);
+  max-width: 300px;
+  width: 100%;
+  min-width: 250px;
+  flex: 1 1 300px;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease;
+}
+
+.school-card:hover {
+  transform: translateY(-8px);
+}
+
+.school-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.school-info {
+  padding: 1rem;
+}
+
+.school-info h3 {
+  font-size: 1.2rem;
+  color: #ff7272;
+  margin-bottom: 0.5rem;
+}
+
+.school-info p {
+  font-size: 1rem;
+  color: #fff;
+  margin: 0;
+}
+/* === Footer Styling === */
+
+.footer {
+  background: linear-gradient(135deg, #750303 0%, #2e0606 50%, #000000 100%);
+  color: #fff;
+  padding: 2rem 1rem;
+  text-align: center;
+  margin-top: auto;
+}
+
+.footer .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.footer-text p {
+  font-size: 0.9rem;
+  color: #ccc;
+}
+
+.footer-social {
+  display: flex;
+  gap: 1rem;
+}
+
+.footer-social .social-link {
+  color: #ff7272;
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
+}
+
+.footer-social .social-link:hover {
+  color: #fff;
+}
+
