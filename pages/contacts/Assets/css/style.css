@@ -1,0 +1,119 @@
+/* Reset and base styles */
+* {
+  margin: 0;
+  padding: 0
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: linear-gradient(135deg, #750303 0%, #2e0606 50%, #000000 100%);
+  color: #fff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: #ffcdcd;
+  text-align: center;
+}
+
+.contact-hero {
+  padding: 3rem 2rem 1rem 2rem;
+  background: rgba(26, 0, 0, 0.7);
+  border-radius: 16px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.3);
+  max-width: 700px;
+  margin: 3rem auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contacts-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  width: 100%;
+  align-items: center;
+}
+
+.contact-card {
+  background: #2e0606;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  width: 100%;
+  max-width: 400px;
+  padding: 1.2rem 2rem;
+  display: flex;
+  align-items: center;
+  transition: transform 0.3s ease;
+}
+.contact-card:hover {
+  transform: translateY(-4px) scale(1.03);
+}
+.contact-link {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2rem;
+  width: 100%;
+}
+.contact-link i {
+  font-size: 2rem;
+  color: #ff7272;
+  transition: color 0.3s ease;
+}
+.contact-link:hover i {
+  color: #fff;
+}
+.contact-link span {
+  font-size: 1.1rem;
+  word-break: break-all;
+}
+
+/* Footer styles */
+.footer {
+  background: linear-gradient(135deg, #750303 0%, #2e0606 50%, #000000 100%);
+  color: #fff;
+  padding: 2rem 1rem 0 1rem;
+  text-align: center;
+  margin-top: auto;
+}
+.footer .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+.footer-text p {
+  font-size: 0.9rem;
+  color: #ccc;
+}
+.footer-social {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 0.5rem;
+}
+.footer-social .social-link {
+  color: #ff7272;
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
+}
+.footer-social .social-link:hover {
+  color: #fff;
+}
