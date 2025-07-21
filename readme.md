@@ -12,7 +12,7 @@
 </div>
 
 <div align="center">
-  I made this portfolio website to showcase my web design skills, projects, and personal information. It features multiple hero sections inspired by One Piece characters, interactive elements, and responsive layouts.
+  I made this portfolio website to showcase my web design skills, projects, and personal information. It features multiple hero sections, interactive elements, and responsive layouts.
   
   <h3 align="center">Andre Daniel D. De Rojas</h3>
 </div>
@@ -57,7 +57,7 @@ This project showcases my portfolio in web design, including my skills, projects
 ### Key Components
 - **Multi-Page Portfolio**: Includes About Me, Contact, Education, and Projects pages, each with its own folder and assets.
 - **Centralized Home Page**: Main `index.html` serves as the portfolio hub.
-- **Organized Assets**: Dedicated folders for CSS, images, and JavaScript for each page and the main site.
+- **Organized Assets**: Dedicated folders for CSS and images for each page and the main site.
 - **Responsive Design**: Mobile-friendly layouts using external CSS.
 - **Consistent Navigation**: Unified navigation and branding across all pages.
 - **Visual Elements**: Use of images and custom logos for personal branding.
@@ -89,8 +89,6 @@ WD-Final-project
 │   ├── img
 │   │   ├── DR logo.png
 │   │   └── my_picture.jpeg
-│   └── JS
-│       └── js.js
 ├── pages
 │   ├── About me
 │   │   ├── index.html
@@ -102,15 +100,13 @@ WD-Final-project
 │   │       │   ├── hobby2.jpeg
 │   │       │   ├── hobby3.jpeg
 │   │       │   ├── hobby4.jpeg
-│   │       │   └── my picture.jpeg
-│   │       └── JS
+│   │       │   └── my picture.jpeg     
 │   ├── Contact
 │   │   ├── index.html
 │   │   └── Assets
 │   │       ├── css
 │   │       │   └── style.css
 │   │       ├── img
-│   │       └── JS
 │   ├── Education
 │   │   ├── index.html
 │   │   └── Assets
@@ -120,8 +116,6 @@ WD-Final-project
 │   │       │   ├── feu highschool.jpeg
 │   │       │   ├── feu main.jpeg
 │   │       │   └── feu tech.jpeg
-│   │       └── JS
-│   │           └── js.js
 │   └── Projects
 │       ├── index.html
 │       └── Assets
@@ -130,12 +124,13 @@ WD-Final-project
 │           ├── img
 │           │   ├── seatwork1.jpeg
 │           │   └── seatwork2.jpeg
-│           └── JS
 └── index.html
 ```
 
 ## Resources
 
-| Title | Purpose | Link | 
-|-|-|-|
-| Final Project | Portfolio | 
+| Title             | Purpose                                  | Link                                                         |
+|-------------------|------------------------------------------|--------------------------------------------------------------|
+| Google Images     | Sourcing images for drawings and previews| [https://images.google.com](https://images.google.com)       |
+| GitHub Pages      | Website hosting and deployment            | [https://pages.github.com](https://pages.github.com)         |
+| Visit Counter     | Page view counter in README               | [https://visit-counter.vercel.app](https://visit-counter.vercel.app) |
