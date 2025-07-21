@@ -1,0 +1,203 @@
+/* Reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: linear-gradient(135deg, #750303 0%, #2e0606 50%, #000000 100%);
+  color: #fff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.section-title {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #ffcdcd;
+  text-align: center;
+}
+
+/* Projects Preview Section */
+.projects-preview {
+  flex: 1 1 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 2rem;
+  background: rgba(26, 0, 0, 0.7);
+  border-radius: 16px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.3);
+}
+
+.seatworks-container {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.seatwork-card {
+  background: #2e0606;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+  max-width: 320px;
+  width: 100%;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.3s ease;
+
+}
+
+.seatwork-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.seatwork-card h3 {
+  font-size: 1.3rem;
+  color: #ff7272;
+  margin-bottom: 0.5rem;
+}
+
+/* Image wrapper for GitHub icon */
+.sw-img-wrapper {
+  position: relative;
+  width: 100%;
+  height: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sw-img-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+  display: block;
+}
+
+/* GitHub link styles */
+.github-link {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0,0,0,0.7);
+  color: #fff;
+  border-radius: 50%;
+  padding: 0.7rem;
+  font-size: 2rem;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s, transform 0.3s;
+  z-index: 2;
+}
+
+.sw-img-wrapper:hover .github-link {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translate(-50%, -50%) scale(1.1);
+}
+
+.github-link:hover {
+  background: #ff7272;
+  color: #fff;
+}
+
+/* Projects Description Section */
+.projects-description {
+  flex: 1 1 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 2rem;
+  background: rgba(26, 0, 0, 0.7);
+  border-radius: 16px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.3);
+}
+
+.descriptions-container {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.description-card {
+  background: #2e0606;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  max-width: 320px;
+  width: 100%;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.description-card h3 {
+  font-size: 1.2rem;
+  color: #ff7272;
+  margin-bottom: 0.5rem;
+}
+
+.description-card p {
+  font-size: 1rem;
+  color: #fff;
+  margin: 0;
+}
+
+/* Footer styles */
+.footer {
+  background: linear-gradient(135deg, #750303 0%, #2e0606 50%, #000000 100%);
+  color: #fff;
+  padding: 2rem 1rem 0 1rem;
+  text-align: center;
+  margin-top: auto;
+}
+.footer .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+.footer-text p {
+  font-size: 0.9rem;
+  color: #ccc;
+}
+.footer-social {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 0.5rem;
+}
+.footer-social .social-link {
+  color: #ff7272;
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
+}
+.footer-social .social-link:hover {
+  color: #fff;
+}
